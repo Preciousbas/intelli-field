@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { hasApiKey, resolveAgentId } from '../../lib/inflectiv';
+import { hasApiKey, resolveAgentId } from '../../lib/inflectiv.js';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'GET') {
