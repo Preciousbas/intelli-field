@@ -5,7 +5,7 @@ import { Sidebar } from './components/Sidebar';
 import { DashboardView } from './components/Dashboard';
 import { FacilityFinderView } from './components/FacilityFinder';
 import { AgentChatView } from './components/AgentChat';
-import { DatasetView } from './components/DatasetView';
+// import { DatasetView } from './components/DatasetView';
 import { DocsView } from './components/DocsView';
 
 function App() {

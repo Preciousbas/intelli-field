@@ -2,8 +2,8 @@ import {
   LayoutDashboard,
   MapPin,
   MessageSquare,
-  Database,
-  Code2,
+  // Database,
+  // Code2,
   Radio,
 } from 'lucide-react';
 import type { View } from '../types';

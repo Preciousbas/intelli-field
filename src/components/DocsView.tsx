@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Code2, Copy, Check, Server, MapPin, MessageSquare, Database } from 'lucide-react';
+import { Copy, Check, Server, MapPin, MessageSquare, Database } from 'lucide-react';
 
 function CodeBlock({ title, code }: { title?: string; code: string }) {
   const [copied, setCopied] = useState(false);
